@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="contenedor">
+        <div class="contenedor-d">
+            <header>
+                <img id="logo" src="img/MarcaJorgeHN.png" alt="logo">
+            </header>
+
+            <div class="encriptar">
+                <textarea name="encriptar-text" id="encriptar-text"
+                    placeholder="Ingrese aqui su texto"></textarea>
+
+                <div class="info">
+                    <img id="advertencia" src="img/advertencia.png" alt="">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <input id="boton-encriptar" type="button" value="Encriptar">
+                    <input id="boton-desencriptar" type="button" value="Desencriptar">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="desencriptar">
+            <div id="vacio">
+                <img id="buscar" src="img/buscar.jpg" alt="">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <textarea name="desencriptar-text" id="desencriptar-text" ></textarea>
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
