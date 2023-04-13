@@ -19,6 +19,11 @@ header{
     height: 30px;
 }
 
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .contenedor{
     display: flex;
     height: 100%;
@@ -30,8 +35,8 @@ header{
 }
 
 .encriptar{
-    height: 90%;
-    padding: 60px 100px 80px 160px;
+    height: 80%;
+    padding: 0px 100px 80px 160px;
 }
 
 #encriptar-text{
@@ -39,6 +44,9 @@ header{
     width: 100%;
     height: 90%;
     background-color: #F3F5FC;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 .info{
@@ -58,10 +66,27 @@ header{
 }
 
 
-#boton-encriptar,#boton-desencriptar{
+#boton-encriptar,#boton-desencriptar,#boton-copiar{
     width: 40%;
     height: 40px;
     border-radius: 15px;
+}
+
+#boton-encriptar{
+    background-color: #0A3871;
+    color: #fff;
+}
+
+#boton-encriptar:hover{
+    background:#021f43;
+}
+
+#boton-desencriptar{
+    background-color: #D8DFE8;  
+}
+
+#boton-desencriptar:hover{
+    background: #91969c;  
 }
 
 .desencriptar{
@@ -72,17 +97,20 @@ header{
 
 #desencriptar-text{
     width: 100%;
-    height: 100%;
+    height: 90%;
     border: transparent;
     border-radius: 15px;
     display: none;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 #vacio{
     background-color: #fff;
     border-radius: 15px;
     width: 100%;
-    height: 100%;
+    height: 90%;
     padding: 40% 20px;
     text-align: center;
 }
@@ -92,6 +120,13 @@ header{
     width: 200px;
 }
 
-h3{
+h2{
     margin: 10px 0px;
+    padding: 0px 30px;
 }
+
+#copiar{
+    text-align: center;
+    display: none;
+}
+
