@@ -89,6 +89,10 @@ h1{
     background: #91969c;  
 }
 
+#boton-copiar:hover{
+    background: #91969c;  
+}
+
 .desencriptar{
     width: 35%;
     background-color: #F3F5FC;
@@ -128,5 +132,131 @@ h2{
 #copiar{
     text-align: center;
     display: none;
+    margin-top: 10px;
 }
 
+
+
+
+/* desktop*/
+@media screen and (max-width: 1200px){
+    
+}
+
+/* laptop*/
+@media screen and (max-width: 1023px) and (min-width: 769px){
+    
+}
+
+
+/* Tablet*/
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .contenedor{
+        display: block;
+    }
+
+    .contenedor-d{
+        width: 100%;
+    }
+
+    .encriptar{
+        height: 50%;
+        padding: 0px 50px 10px 50px;
+    }
+
+    #encriptar-text{ 
+        width: 100%;
+        height: 350px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .desencriptar{
+        width: 100%;
+        padding: 40px;
+        height: 40%;
+    }
+
+    #vacio{
+        height: 100px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    #buscar{
+        display: none;
+    }
+
+    #desencriptar-text{
+        height: 50%;
+        border: transparent;
+        border-radius: 15px;
+        display: none;
+        padding: 20px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) and (min-width: 300px){
+    #logo{
+        width: 40px;
+        height: 30px;
+    }
+    .contenedor{
+        display: block;
+    }
+
+    .contenedor-d{
+        width: 100%;
+    }
+
+    .encriptar{
+        height: 50%;
+        padding: 0px 50px 10px 50px;
+    }
+
+    #encriptar-text{ 
+        width: 100%;
+        height: 350px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .desencriptar{
+        width: 100%;
+        padding: 40px;
+        height: 40%;
+    }
+
+    #vacio{
+        height: 70%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    #buscar{
+        display: none;
+    }
+
+    #desencriptar-text{
+        height: 50%;
+        border: transparent;
+        border-radius: 15px;
+        display: none;
+        padding: 20px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
